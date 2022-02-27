@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img_product": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title_product": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "counter": {
+      "unique": false,
+      "required": true,
+      "max": 1,
+      "min": 1,
+      "type": "integer"
+    },
+    "price": {
+      "type": "biginteger",
+      "unique": false,
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "unique": false
+    },
+    "filter": {
+      "type": "string",
+      "required": false
+    },
+    "curentPrice": {
+      "type": "biginteger",
+      "required": true
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "products"
+    },
+    "id_produs": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "dateTehnice": {
+      "type": "json",
+      "required": true
+    },
+    "dateTehniceTopDescription": {
+      "type": "text"
+    },
+    "dateTehniceBottomDescription": {
+      "type": "text"
+    }
+  }
+}

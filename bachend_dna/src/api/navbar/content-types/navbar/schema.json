@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navbars",
+  "info": {
+    "singularName": "navbar",
+    "pluralName": "navbars",
+    "displayName": "Navbar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "despre": {
+      "type": "string",
+      "required": false,
+      "unique": false,
+      "maxLength": 15
+    },
+    "produse": {
+      "type": "string",
+      "required": false,
+      "unique": false,
+      "maxLength": 15
+    },
+    "servicii": {
+      "type": "string",
+      "required": false,
+      "unique": false,
+      "maxLength": 15
+    },
+    "contacte": {
+      "type": "string",
+      "required": false,
+      "unique": false,
+      "maxLength": 15
+    },
+    "link_facebook": {
+      "type": "text",
+      "required": false,
+      "unique": false
+    },
+    "link_youtube": {
+      "type": "text",
+      "required": false,
+      "unique": false
+    },
+    "tel": {
+      "type": "text",
+      "maxLength": 9,
+      "minLength": 9
+    }
+  }
+}
