@@ -1,6 +1,6 @@
 {
-  "homepage": "admin.metics.md",
   "name": "bachend-dna",
+  "homepage": "http://admin.metics.md",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
