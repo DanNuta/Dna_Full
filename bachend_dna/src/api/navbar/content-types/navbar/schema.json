@@ -56,8 +56,8 @@
     },
     "tel": {
       "type": "text",
-      "maxLength": 9,
-      "minLength": 9
+      "maxLength": 10,
+      "minLength": 10
     }
   }
 }
