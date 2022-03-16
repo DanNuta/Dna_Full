@@ -14,4 +14,8 @@ module.exports = ({ env }) => ({
       },
       debug: false,
     },
+
+    autoReload: {
+        enabled: true
+      }
   });
