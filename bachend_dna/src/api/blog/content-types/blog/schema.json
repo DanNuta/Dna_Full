@@ -32,10 +32,6 @@
       "relation": "manyToMany",
       "target": "api::category-blog.category-blog",
       "inversedBy": "blogs"
-    },
-    "slug": {
-      "type": "uid",
-      "required": true
     }
   }
 }
