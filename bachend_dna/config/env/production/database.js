@@ -17,5 +17,9 @@ module.exports = ({ env }) => ({
 
     autoReload: {
         enabled: true
+      },
+
+      autoReload: {
+        enabled: true
       }
   });
