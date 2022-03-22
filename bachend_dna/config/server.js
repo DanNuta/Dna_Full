@@ -1,11 +1,16 @@
 module.exports = ({ env }) => ({
-  host: env('HOST', '0.0.0.0'),
+  host: env('HOST', 'localhost'),
   port: env.int('PORT', 1337),
-
+  //url: 'localhost',
+  admin: {
+    auth: {
+      secret: env('ADMIN_JWT_SECRET', '13cdd067-65b8-4137-9c23-b5ab13d826c9')
+    }
+  },
   autoReload: {
     enabled: true
   }
-});
+})
 
 
 // module.exports = ({ env }) => ({ 
