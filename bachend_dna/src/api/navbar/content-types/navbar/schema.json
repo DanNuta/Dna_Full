@@ -23,26 +23,22 @@
     "despre": {
       "type": "string",
       "required": false,
-      "unique": false,
-      "maxLength": 15
+      "unique": false
     },
     "produse": {
       "type": "string",
       "required": false,
-      "unique": false,
-      "maxLength": 15
+      "unique": false
     },
     "servicii": {
       "type": "string",
       "required": false,
-      "unique": false,
-      "maxLength": 15
+      "unique": false
     },
     "contacte": {
       "type": "string",
       "required": false,
-      "unique": false,
-      "maxLength": 15
+      "unique": false
     },
     "link_facebook": {
       "type": "text",
