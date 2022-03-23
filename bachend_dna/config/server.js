@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
-  host: env('HOST', 'https://admin-jkdrn.ondigitalocean.app/'),
+  host: env('HOST', 'https://admin-jkdrn.ondigitalocean.app/admin'),
   port: env.int('PORT', 1337),
   //url: 'localhost',
   admin: {
